@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="formulaire.css">
+  <title>Document</title>
+</head>
+<body>
+  <section class="available merienda+one py-5 mb-5">
+              <h1 >Formulaire de contact</h1>
+              <div>
+                  <div>
+                      <form>
+                          <div>
+                            <label for="lastname" class="form-label">Nom</label>
+                            <input type="lastname" class="form-control" id="lastname" aria-describedby="lastName" placeholder="Votre nom">
+                          </div>
+
+                          <div>
+                            <label for="firstname" class="form-label">Prénom</label>
+                            <input type="firstname" class="form-control" id="firstname" aria-describedby="firstName" placeholder="Votre prénom">
+                          </div>
+                          
+                          <div>
+                              <label for="emailAddress" class="form-label">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp" placeholder="votre@email.fr">
+                              <div>We'll never share your email with anyone else.</div>
+                            </div>
+
+                            <select>
+                              <option selected="">Pour quelle raison nous contactez vous ?</option>
+                              <option value="3">Je suis intéressé(e) par vos actions</option>
+                              <option value="1">Je souhaite faire un partenariat</option>
+                              <option value="2">Soutien scolaire pour mon enfant</option>
+                              <option value="3">Je souhaite faire un don</option>
+                              <option value="3">J'ai remarqué une erreur sur le site internet</option>
+                              <option value="3">Autres</option>
+                          </select>
+
+                            <div>
+                              <label for="message" class="form-label">Vos questions / suggestions</label><br>
+                              <textarea class="form-control" id="message" rows="3" placeholder="Vos demandes ou suggestions ici..."></textarea>
+                            </div>
+
+                            <div>
+                              <input type="checkbox" class="form-check-input" id="cgu">
+                              <label class="form-check-label" for="newsletter">J'accepte les conditons générales d'utilisation </label>
+                            </div>
+                            <div class="mb-3 form-check">
+                              <input type="checkbox" class="form-check-input" id="newsletter">
+                              <label class="form-check-label" for="newsletter">recevoir les newsletters</label>
+                            </div>
+
+                          <button type="submit" class="btn btn-primary">Envoyer</button>
+
+                        </form>
+                  </div>
+              </div>
+            </section>
+
+        
+</body>
+</html>
