@@ -40,7 +40,8 @@ body {
   }
 
 .res {
-    max-width:60px;
+    max-width: 90px;
+    max-height:75%;
     
 }
 .social {
