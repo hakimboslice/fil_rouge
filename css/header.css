@@ -1,7 +1,7 @@
 .heade {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .headerbouton {  
@@ -38,3 +38,4 @@ button {
 header > div:nth-child(even) {    
     align-self:center;
 }
+
