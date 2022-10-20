@@ -40,8 +40,8 @@ body {
   }
 
 .res {
-    max-width: 90px;
-    max-height:75%;
+    width: 43%;
+    height:50%;
     
 }
 .social {
