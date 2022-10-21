@@ -1,8 +1,6 @@
 .connection{
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 14px;
-    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
