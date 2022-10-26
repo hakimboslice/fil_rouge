@@ -1,21 +1,18 @@
 .gg {
     width: 15%;
-    margin-right: 100px;
-    border-radius: 30%;
+    border-radius: 16%;
     margin-bottom: 0px;
 }
 
 .aaa{
     width: 15%;
     height: 100%;
-    margin-right: 100px;
-    border-radius: 30%;
+    border-radius: 16%;
     margin-bottom: 0px;
-    
-
 }
 
-.a {
-    
-
+.a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
