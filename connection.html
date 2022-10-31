@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
 </head>
-    <title>Document</title>
+    <title>Connection</title>
   
 <body>
     <div class="modal modal-signin position-static d-block py-5" tabindex="-1" role="dialog" id="modalSignin">
@@ -18,7 +18,7 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               <div class="modal-body p-5 pt-0">
                 <form class="">
-                  <h1 class="fw-bold mb-0 fs-2 grand"> Connection</h1>
+                  <h1 class="changement fw-bold mb-0 fs-2 grand"> Connection</h1>
                   <div class="form-floating mb-3 pad">
                     <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
                     <label for="floatingInput">Adresse mail</label>
@@ -27,7 +27,8 @@
                     <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
                     <label for="floatingPassword">Mot de passe</label>
                   </div>
-                  <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Connection</button>
+                  <button onclick="connection()" class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Connection</button>
+                  <a id="inscription"  href="">inscription</a>
                 </form>
               </div>
               <!-- <h1 class="modal-title fs-5" >Modal title</h1> -->
