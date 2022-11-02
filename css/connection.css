@@ -15,4 +15,18 @@ padding-bottom: 20px;}
 
 #inscription{
     text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#inscription:hover{
+    color: blue;
+}
+
+.hidden-subscribe {
+    display:none;
+}
+
+.cgucenter{
+    text-align: center;
 }

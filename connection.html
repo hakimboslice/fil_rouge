@@ -18,7 +18,7 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               <div class="modal-body p-5 pt-0">
                 <form class="">
-                  <h1 class="changement fw-bold mb-0 fs-2 grand"> Connection</h1>
+                  <h1 class="changement fw-bold mb-0 fs-2 grand">Connection</h1>
                   <div class="form-floating mb-3 pad">
                     <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
                     <label for="floatingInput">Adresse mail</label>
@@ -26,19 +26,27 @@
                   <div class="form-floating mb-3 pad">
                     <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
                     <label for="floatingPassword">Mot de passe</label>
+                  </div>    
+
+                  <!-- ajout -->
+
+                  <div id="hidden-subscribe" class="hidden-subscribe form-floating mb-3 pad">
+                    <input type="password" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Confirmer le mot de passe</label>
                   </div>
-                  <button onclick="connection()" class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Connection</button>
-                  <a id="inscription"  href="">inscription</a>
-                </form>
+                  <button  class="w-100 mb-2 btn btn-lg rounded-3 btn-primary changements" type="submit">Connection</button>
+                </form>         
+              
+                  <p id="inscription" onClick="subscribAndConnexion()" >Inscription</p>
               </div>
               <!-- <h1 class="modal-title fs-5" >Modal title</h1> -->
               
             </div>
-            <small class="text-muted">en cliquant sur inscription vous accepter les conditions d'utilisations</small>
+            <small class="text-muted cgucenter">en cliquant sur inscription vous accepter les conditions d'utilisations</small>
             <hr class="my-4">
           </div>
         </div>
       </div>
-    <script src="./js/connection.js"></script>
+    <script src="./connection.js"></script>
 </body>
 </html>
