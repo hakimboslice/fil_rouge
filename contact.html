@@ -79,26 +79,23 @@
 
                 <div>
                         <label for="phone">Votre numéro de télephone* :</label>
-                        <input type="tel" id="phone" name="phone" minlength="10" maxlength="10" required />
+                        <input type="tel" id="phone" name="phone" minlength="10" maxlength="10" placeholder="0000000000" required />
                 </div>
 
                 <div>
                         <label for="mail">Adresse email* :</label>
-                        <input type="email" id="mail" name="mail" required />
+                        <input type="email" id="mail" name="mail" placeholder="blablabla@exemple.com" required />
                 </div>
 
                 
 
                 <div id="comm">
+                        <label for="comment">Votre message :</label>
                         <textarea name="comment" id="comment" cols="30" rows="2" placeholder="Ajoutez un message."></textarea> 
                 </div>
-
-                
-
-                    <input id="finish" name="finish" type="submit">
-
             
             </form>
+            <input id="finish" name="finish" type="submit" onClick="mailing()">
         </div>
     </div>
    
