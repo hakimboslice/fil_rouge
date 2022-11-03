@@ -1,0 +1,50 @@
+body{background-color: #D9D9D9 !important;
+}
+
+.ti{
+    padding-bottom: 15px;
+}
+
+.grand{text-align: center;
+padding-bottom: 20px;}
+
+.pad{
+    margin-left: -120px;
+    margin-right: -120px;
+}
+
+#inscription{
+    margin-top: 5px;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#inscription:hover{
+    color: blue;
+}
+
+.hidden-subscribe {
+    display:none;
+}
+
+.cgucenter{
+    text-align: center;
+}
+
+.changement{
+    margin-top: 40px;
+}
+
+.alignement{
+    margin-top: -55px;
+}
+
+.grand{
+    margin-top: 20px;
+}
+
+.butt{
+  padding-right: 900px !important; 
+   padding-top: 30px !important;
+}

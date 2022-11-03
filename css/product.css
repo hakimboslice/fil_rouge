@@ -1,0 +1,45 @@
+
+
+
+
+.gg {
+    width: 15%;
+    border-radius: 16%;
+    margin-bottom: 0px;
+}
+
+.aaa{
+    width: 15%;
+    height: 100%;
+    border-radius: 16%;
+    margin-bottom: 0px;
+}
+
+.a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.creations  {
+    padding: 1%;
+    background-color: #D9D9D9;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    justify-content: space-evenly;
+}
+
+
+.produits   {
+    padding: 1%;
+    background-color: white;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    justify-content: space-evenly;
+}
